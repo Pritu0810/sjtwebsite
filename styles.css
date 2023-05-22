@@ -1,0 +1,334 @@
+body {
+    text-align: center;
+    font-family: 'Montserrat';
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 1% 2%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h6 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+hr {
+    border: dotted #A4907C 6px;
+    border-bottom: none;
+    width: 9%;
+    margin-top: 42px;
+    margin-bottom: 42px;
+    margin-left: 680px;
+
+}
+
+
+P {
+    color: #4D4D4D;
+}
+
+/* Sections */
+
+.coloured-section {
+    background-color: #73A9AD;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #F6F1E9;
+    color: #73A9AD;
+}
+.white section {
+    float: left;
+    text-align: left;
+}
+
+/* Headings */
+
+.big-heading {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.download button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+    position: absolute;
+    width: 24%;
+    bottom: 360px;
+    right: 180px;
+
+}
+/* Features Section */
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+
+.icon {
+    color: #454545;
+    margin-bottom: 1rem;
+}
+
+#Contact {
+    padding: 100px;
+    text-align: center;
+}
+
+.contact-coloumn {
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+    #title { text-align: center;
+
+    }
+
+    .title-image {
+        position: static;
+    }
+}
+
+/* Footer */
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.product2 {
+    display: flex;
+    flex-direction: column;
+    align-items: middle;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    left: 100%;
+    inline-size: 80px;
+  }
+ 
+
+
+/* Navigation Brand */
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 0;
+}
+
+.navbar {
+    padding: 0 0 ;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light', sans-serif;
+}
+
+/* Services Section */
+
+.Contact-us {
+    width: 21%;
+    margin: 1%;
+    
+}
+
+.ask {
+    margin-top: 40px;
+    padding-top: 0%;
+}
+
+/* About Us Page */
+
+#about-us {
+    padding: 7% 6%;
+}
+
+/* Footer */
+.Linkedin-link {
+    padding: 6px;
+}
+
+.Twitter-link {
+    padding: 6px;
+}
+
+.Instagram-link {
+    padding: 6px;
+}
+
+.copyright {
+    padding: 1%;
+}
+
+/* Signup and LogIn */
+
+.container {
+    max-width: 400px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+  .container input[type="text"],
+  .container input[type="password"],
+  .container input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 25px;
+    }
+ 
+
+.genuine, .expert, .Personalised-Service, .setting, .truck, .price {
+    width: 15%;
+    margin:2% ;
+}
+
+.exchange-offer {
+    width: 13%;
+    margin: 3%;
+}
+.connect {
+    padding-left: 70%;
+    padding-bottom: 50%;
+}
+.footer-link, .twitter {
+    margin: 2%;
+}
+
+.b-data {
+    float: left;
+    text-align: left;
+}
+
+.MbJain {
+    float: left;
+    text-align: right;
+    width: 15%;
+    display: flex; 
+    align-items: centre;
+    width: 13%;
+    float: left;
+    position: absolute;
+    left: 100px;
+  
+}
+
+  .Title {
+    float: left;
+    text-align: center;
+    width: 15%;
+}
+
+.subtitle {
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  .subtitle-s {
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    margin-left: 21%;
+  }
+
+
+.Title-s{
+    text-align: center;
+    margin-left: 21%;
+}
+
+.Title-Mb {
+    text-align: center;
+}
+
+  .suresh {
+    width: 15%;
+    float: right;
+    margin-right: 5%;
+    
+  }
+  .logo {
+    position: static;
+    float: left;
+    padding: 1%;
+  }
+
+  .d-flex {
+    padding-top: 1.5%;
+    margin: 1% 25%;
+  }
+
+#Leadership {
+    padding: 1%;
+}
+
+.leadership {
+    width: 50%;
+    margin: 33px auto 33px auto;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.statement {
+    width: 120%;
+}
+
+.statement-s {
+    width: 70%;
+    margin-left: 5%;
+}
+
+.search  {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 0px;
+    border: 1px solid #ccc;
+    border-radius: 55px;
+}
+
+
+.name1  {
+    width: 40%;
+    padding: 03px;
+    margin-bottom: 0px;
+    border: 1px solid #ccc;
+    border-radius: 55px;
+}
+.name2  {
+    width: 0%;
+    padding: 20px;
+    margin-bottom: 0px;
+    border: 1px solid #ccc;
+    border-radius: 55px;
+}
